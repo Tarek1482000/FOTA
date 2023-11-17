@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Flash Over The Air</title>
+   <style>
+      body {
+         background-image: url("FOTA.jpg");
+         background-size: 100% 100%;
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+      }
+
+      h1 {
+         font-family: "Comic Sans MS", cursive, sans-serif;
+         font-size: 36px;
+         color: red;
+         text-align: center;
+      }
+
+      p {
+         font-family: "Arial", sans-serif;
+         font-size: 18px;
+         color: blue;
+         text-align: center;
+      }
+
+      .login-container {
+		max-width: 300px;
+		margin: 0 auto;
+		background-color: white; /* change to desired background color */
+		opacity: 0.8; /* adjust the opacity to your preference */
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+      .login-container h2 {
+         text-align: center;
+      }
+
+      .login-container form {
+         margin-top: 20px;
+      }
+
+      .login-container label {
+         display: block;
+         margin-bottom: 5px; /* Add space at the bottom of the label */
+      }
+
+      .login-container input[type="text"],
+	  .login-container input[type="password"] {
+		width: 100%;
+		padding: 8px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		margin-top: 2px; /* add this line to move the password text down */
+		}
+
+      .login-container button {
+         width: 100%;
+         padding: 10px;
+         margin-top: 10px;
+         background-color: #4caf50;
+         border: none;
+         color: #fff;
+         font-weight: bold;
+         border-radius: 3px;
+         cursor: pointer;
+      }
+
+      .login-container button:hover {
+         background-color: #45a049;
+      }
+   </style>
+</head>
+<body>
+   <h1>Flash Over The Air project</h1>
+   <p>This website is implemented by Tarek Ahmed</p>
+   <p>To Flash Hex Code into STM32F10xx through the Air</p>
+
+   <div class="login-container">
+      <h2>Login Form</h2>
+      <form action="checkLogin.php" method="POST">
+         <label for="username">Username:</label>
+         <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+         <label for="password">Password:</label>
+         <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+         <button type="submit">Login</button>
+      </form>
+   </div>
+</body>
+</html>
