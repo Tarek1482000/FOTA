@@ -49,7 +49,7 @@
  * MACRO	: 	To Configure SERVER_LINK_HEX																		         	      *
  * options	:																														  *
  **************************************************************************************************************************************/
-#define	SERVER_LINK_HEX												"GET http://otaupdatesolutions.orgfree.com/Hex_file.txt\r\n"
+#define	SERVER_LINK_HEX												"GET http://*****/Hex_file.txt\r\n"
 /**************************************************************************************************************************************
  * MACRO	: 	To Configure DATA_LENGHT_UPDATE																		         	      *
  * options	:																														  *
@@ -59,7 +59,7 @@
  * MACRO	: 	To Configure SERVER_LINK_UPDATE								    										         	  *
  * options	:																														  *
  **************************************************************************************************************************************/
-#define	SERVER_LINK_UPDATE 											"GET http://********Update.txt\r\n"
+#define	SERVER_LINK_UPDATE 											"GET http://********/Update.txt\r\n"
 /**************************************************************************************************************************************
  * MACRO	: 	To Configure DATA_LENGHT_RECORD																		         	      *
  * options	:																														  *
